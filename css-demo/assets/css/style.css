@@ -1,0 +1,307 @@
+/*---------------Box Sizing----------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/*---------------------Responsive Image----------------*/
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
+
+/*-------------------Utility Classes----------------*/
+
+.container{
+  width:80vw;
+  margin:40px auto;
+ 
+}
+
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border:1px solid black;
+  padding:5px;
+}
+
+
+.img-left{
+  float:left;
+  margin:10px 20 10px 0px;
+  border:1px solid black;
+  padding:5px;
+}
+
+/*------------------Global Styles--------------*/
+
+body {
+  margin:0;
+  font-family: "Noto Sans JP", sans-serif;
+  
+}
+
+/*containerfor header*/
+header.primary {
+  text-align: center;
+   text-shadow:2px 2px #000000;
+  margin-bottom:120px;
+  color: black;
+  
+  background-color: #f2f1f0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/*bldg modern web header*/
+  header.primary h1{
+  font-size: 3.7em;
+  margin:5px;
+  font-family: "DotGothic16", sans-serif;
+}
+header.primary h1 a{
+   color: #0d0d0d;
+  text-decoration:none;
+  
+}
+
+ header.primary h2 {
+  font-size: 2.0em;
+  font-family: "DotGothic16", sans-serif;
+  letter-spacing: 9px;
+   /*Top,left/right,botom*/
+  margin:20px auto 40px;
+  padding: 20px;
+  color: #0d0d0d;
+  
+}
+
+
+header.primary nav{
+  width:auto;
+  margin:20px auto;
+  max-width:900px;
+}
+
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+ justify-content: space-between;
+  padding:0;
+  width:80vw;
+margin:15px auto;
+max-width:900px;
+list-style-type:none;
+
+}
+
+
+header.primary nav a:link, header.primary nav a:visited{
+  color:#fff;
+  text-decoration:none;
+  background-color:#000000;
+  padding:8px 16px;
+  border-radius:20px 5px;
+  transition:.4s;
+}
+
+header.primary nav a:hover, header.primary nav a:active{
+  background-color:rgba(0,0,0,.8);
+}
+
+#intro{
+  border-bottom:1px solid #c0c0c0;
+  font-family: "DotGothic16", sans-serif;
+}
+
+#intro h2{
+   color: #0d0d0d;  
+}
+
+  #intro p{
+    line-height:1.6;
+  }  
+
+#content{
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+ border-bottom:1px solid #c0c0c0;
+  padding-bottom:2.6rem;
+}
+
+#content article.post{
+  width:30%;
+  box-shadow:0 4px 8px;
+  padding:.7em;
+}
+
+#content .post figure{
+  margin:0;
+}
+
+#content .post h2 a:hover{
+   box-shadow:0 4px 8px;
+  
+}
+
+#content article time, #content article figcaption, #content article footer{
+  font-size: .7em;
+  text-transform:uppercase;
+  color:red;
+  
+}
+
+#content article img{
+  border-radius:30px;
+}
+
+#content article a:link, #content article a:visited{
+  color:green;
+}
+
+#content article a:hover, #content article a:active{
+  text-decoration:none;
+  color:purple;
+}
+aside[role="complementary"]{
+
+  background-color:yellow;
+  color:blue;
+  padding:2.2em;
+  
+}
+
+aside .container{
+    display:flex;
+  flex-flow:row space-between;
+  justify-content:space-between;
+}
+
+aside article.widget{
+  width:40%;
+}
+
+aside a:link, aside a:visited{
+  color:red;
+  display:block;
+  margin-top:20px;
+}
+
+aside footer{
+  display:none;
+}
+
+#colophon{
+ background-color:teal; 
+}
+
+#colophon h6{
+color:white;
+  padding:20px;
+  margin:0;
+  text-align:center;
+  font-size:.8rem;
+  text-transform: uppercase;
+}
+
+
+#additional-elements h2{
+  color:;
+  border-bottom:1px dotted black;
+}
+
+#additional-elements a:link, #additional-elements a:visited{
+  color:teal;
+}
+
+#additional-elements a:hover, #additional-elements a:active{
+  text-decoration:none;
+}
+
+#additional-elements h3{
+  clear:both;
+  border-left:5px solid red;
+  padding:10px;
+}
+
+table{
+  width:100%;
+  border:1px solid red;
+  border-collapse:collapse;
+}
+
+table td{
+  border:1px solid red;
+  padding: 3px;
+  
+}
+
+table th{
+  background-color: blue;
+  color:white;
+  width:33%;
+  padding:10px;
+}
+
+table tr:nth-child(even){
+  background-color:blue;
+}
+
+table tr:hover{
+  background-color:green;
+}
+
+table caption{
+  color:blue;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+#additional-elements ul{
+  list-style-type:square;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width:690px){
+  
+  header.primary nav ul{
+  display:flex;
+  flex-direction:column;
+ justify-content: space-between;
+    margin:0 auto;
+}
+
+  header.primary nav a{
+    display:block;
+  }
+  
+  header.primary nav li{
+    margin-bottom:15px;
+  }
+  
+
+ 
+
